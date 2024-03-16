@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {}
+
+/* .first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .parent {
+    background-color: #ACE4E3;
+    height: 695px;
+    color: #003E29;
+    border: solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#a {
+    margin-left: 5px;
+}
+
+#b {
+    margin-right: 50px;
+}
+
+#c {
+    margin-bottom: 50px;
+}
+
+#d {
+    margin-left: 50px;
+} */
+.parent {
+    background-color: #ACE4E3;
+    height: 695px;
+    color: #003E29;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 20px; */
+}
+
+.first {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+    /* padding: 50px; */
+}
+
+.first h4 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.secong H1 {
+    z-index: 1000;
+    position: sticky;
+}
+
+#w {
+    color: #F58BCF;
+}
+
+.myth1 {
+    background-color: #0B4350;
+    height: 695px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.border {
+    border: solid 1px white;
+    border-radius: 10%;
+    margin: 94px;
+    padding: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 30px;
+
+}
+
+.box1 {
+    width: 300px;
+
+}
+
+.myth1 h1 {
+    margin-left: 160px;
+    font-size: large;
+    color: white;
+    font-size: 200px;
+}
+
+.myth1 h2 {
+    color: #ACE4E3;
+}
+
+.pink {
+    color: #F58BCF
+}
+
+#small {
+    font-size: 20px;
+}
+
+.ball {
+    background-color: #003E29;
+    color: #003E29;
+    height: 695px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.circle {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: #ACE4E3;
+    margin-right: 80px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.circle p {
+    margin-top: 100px;
+    margin-left: -10px;
+}
+
+.star {
+    background-color: #F58BCF;
+    height: 695px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
